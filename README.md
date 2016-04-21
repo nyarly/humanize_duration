@@ -10,12 +10,7 @@ Humanize a time interval for display.
 With [fisherman]
 
 ```
-fisher i humanize_duration
-```
-With [fin]
-
-```
-fin humanize_duration
+fisher humanize_duration
 ```
 
 ## Usage
@@ -31,4 +26,3 @@ echo $CMD_DURATION | humanize_duration
 [slack-link]: https://fisherman-wharf.herokuapp.com/
 [slack-badge]: https://img.shields.io/badge/slack-join%20the%20chat-00B9FF.svg?style=flat-square
 [fisherman]: https://github.com/fisherman/fisherman
-[fin]: https://github.com/fisherman/fin
