@@ -22,7 +22,7 @@ echo $CMD_DURATION | humanize_duration
 ```
 
 [travis-link]: https://travis-ci.org/fisherman/humanize_duration
-[travis-badge]: https://img.shields.io/travis/fisherman/humanize_duration.svg?style=flat-square
+[travis-badge]: https://img.shields.io/travis/fisherman/humanize_duration.svg
 [slack-link]: https://fisherman-wharf.herokuapp.com/
-[slack-badge]: https://img.shields.io/badge/slack-join%20the%20chat-00B9FF.svg?style=flat-square
+[slack-badge]: https://fisherman-wharf.herokuapp.com/badge.svg
 [fisherman]: https://github.com/fisherman/fisherman
