@@ -1,5 +1,5 @@
 function humanize_duration -d "Humanize a time interval for display"
-    awk '
+    command awk '
         function hmTime(time,   stamp) {
             split("h:m:s:ms", units, ":")
 
@@ -8,16 +8,13 @@ function humanize_duration -d "Humanize a time interval for display"
                     stamp = stamp t units[sqrt((i - 2) ^ 2) + 1] " "
                 }
             }
-
             if (stamp ~ /^ *$/) {
                 return "0ms"
             }
-
             return substr(stamp, 1, length(stamp) - 1)
         }
-
-        {
-            print hmTime($0)
+        { 
+            print hmTime($0) 
         }
     '
 end
